@@ -1,7 +1,7 @@
-import { Project } from "../models/project.js";
-import { Autobind } from "../decorators/autobind.js";
-import ccc from "./base-component.js";
-import { Draggable } from "../models/drag-drop.js";
+import { Project } from "../models/project";
+import { Autobind } from "../decorators/autobind";
+import ccc from "./base-component";
+import { Draggable } from "../models/drag-drop";
 
 //ProjectItem Class
 export class ProjectItem extends ccc<HTMLUListElement, HTMLLIElement> implements Draggable {

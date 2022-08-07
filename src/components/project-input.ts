@@ -1,8 +1,8 @@
-import bbb from "./base-component.js";
+import bbb from "./base-component";
 // import { Validatable, validate } from "../util/validation.js";
-import * as Validation from "../util/validation.js";
-import { Autobind as aaa } from "../decorators/autobind.js";
-import { projectState } from "../state/project-state.js";
+import * as Validation from "../util/validation";
+import { Autobind as aaa } from "../decorators/autobind";
+import { projectState } from "../state/project-state";
 
 export class ProjectInput extends bbb<HTMLDivElement, HTMLElement> {
     titleInputElement: HTMLInputElement;
