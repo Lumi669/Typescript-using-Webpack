@@ -7,7 +7,7 @@ module.exports = {
         path: path.resolve(__dirname, "dist")
     },
 
-    devtools: "inline-source-map",
+    devtool: "inline-source-map",
 
     module: {
         rules: [
