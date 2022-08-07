@@ -5,5 +5,21 @@ module.exports = {
     output: {
         filename: "bundle.[contenthash].js",
         path: path.resolve(__dirname, "dist")
+    },
+
+    devtools: "inline-source-map",
+
+    module: {
+        rules: [
+            {
+                test: /\.ts$/,
+                use: "ts-loader",
+                exclude: /node_modules/
+            }
+        ]
+    },
+
+    resolve: {
+        extentions: [".ts", ".js"]
     }
 };
