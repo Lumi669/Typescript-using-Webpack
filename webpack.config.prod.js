@@ -10,7 +10,8 @@ module.exports = {
         path: path.resolve(__dirname, "dist")
     },
 
-    devtool: "none",
+    // devtool: "none",   //not work !!!
+    devtool: false,
 
     module: {
         rules: [
@@ -25,8 +26,8 @@ module.exports = {
     devServer: {
         static: {
             directory: path.resolve(__dirname, "./")
-        },
-        compress: true
+        }
+        //compress: true  //this is not needed, but works with it
         // port: 3000,   //here can change port number, be defaut it is 8080
     },
     resolve: {
