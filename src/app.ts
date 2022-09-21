@@ -9,3 +9,5 @@ new ProjectInput();
 //create an instance of active project list, now in UI should shows
 new ProjectList("active");
 new ProjectList("finished");
+
+console.log("apple");
