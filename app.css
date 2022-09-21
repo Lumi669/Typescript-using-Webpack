@@ -12,6 +12,14 @@ body {
 
 form {
     margin: 1rem;
+
+    border: 2px solid red;
+    border-spacing: 15px;
+}
+
+form > div,
+button {
+    margin: 1rem;
 }
 
 label,
